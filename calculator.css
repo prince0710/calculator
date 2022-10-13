@@ -1,0 +1,101 @@
+html{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left,#7808f0,#06bdf5);
+}
+
+.calci{
+    padding-top: 100px;
+    padding: 100px;
+    left: 70%;
+    top: 50%;
+    width: 500px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    transition: 0.25px;
+    text-align: center;
+}
+#display{
+    border: none;
+    background: white;
+    border-radius: 30px;
+    width: 250px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300px;
+    height: 60px;
+    margin: auto;
+    border: 2px solid white;
+    color: black;
+
+
+}
+
+.btnDesign{
+    width: 55px;
+    height: 55px;
+    padding-top: -1px;
+    background: white;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+    border-radius: 30px;
+    margin: 1.5px;
+
+
+}
+
+.optrDesign:hover{
+
+    background-color: #009ff0;
+    
+
+}
+.optrDesign{
+    width: 55px;
+    height: 55px;
+    padding-top: -1px;
+    border: none;
+    font-family: sans-serif;
+    background: white;
+    font-size: 20px;
+    font-weight: 300px;
+    border-radius: 30px;
+    margin: 1.5px;
+}
+
+.zero{
+    width: 116px;
+    height: 55px;
+    padding-top: -1px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 1.5px;
+    transform: 0.25px;
+    cursor: pointer;
+}
+h1{
+    color: bisque;
+    margin-top: 300px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+h2{
+    color: bisque;
+    margin-top: -1px;
+    margin-left: 140px;
+    
+    font-family: sans-serif;
+    font-weight: 500px;
+    font-size: 40px;
+    
+}
